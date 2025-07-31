@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: StoreApplication
+  datasource:
+    url: jdbc:mysql://localhost:3306/store?createDatabaseIfNotExist=true
+    username: root
+    password: joaoalves2002
+mail:
+  host: http://www.user-regist.com
+  port: 8080
