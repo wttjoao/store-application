@@ -30,7 +30,7 @@ public class Address {
     private String zip;
 
     @ManyToOne
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "user_id") // Como 'address' é owner, definimos aqui a foreign key com @JoinColumn
     @ToString.Exclude
     private User user;
 }
